@@ -47,6 +47,5 @@ function clearStats() {
 }
 
 function openSettings() {
-  // TODO: Open settings page
-  alert('Settings coming soon!');
+  chrome.tabs.create({ url: chrome.runtime.getURL('src/settings.html') });
 }
