@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrivacyPixel 🛡️ - Block Email Trackers</title>
+    <meta name="description" content="Block email tracking pixels and see who's spying on you. Privacy-focused Chrome extension.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        h1 { font-size: 3.5rem; margin-bottom: 20px; text-align: center; }
+        .tagline { font-size: 1.5rem; text-align: center; margin-bottom: 40px; opacity: 0.9; }
+        .demo {
+            background: #1a1a2e;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .install {
+            background: #0f3460;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.2rem;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+        .feature h3 { font-size: 1.3rem; margin-bottom: 10px; }
+        .cta { text-align: center; margin: 50px 0; }
+        .btn {
+            display: inline-block;
+            background: #fff;
+            color: #667eea;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+        }
+        footer { text-align: center; margin-top: 60px; opacity: 0.8; }
+        footer a { color: #fff; margin: 0 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ PrivacyPixel</h1>
+        <p class="tagline">Block email tracking pixels and see who's spying on you</p>
+        
+        <div class="install">
+            Coming soon to Chrome Web Store
+        </div>
+
+        <div class="demo">
+            <h2 style="margin-bottom: 20px;">How It Works</h2>
+            <p style="line-height: 1.8;">
+                PrivacyPixel automatically blocks invisible tracking pixels that companies embed in emails.
+                See exactly who's tracking you and take back your privacy.
+            </p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🛡️ Auto-Block</h3>
+                <p>Automatically blocks email tracking pixels from 15+ services.</p>
+            </div>
+            <div class="feature">
+                <h3>👁️ See Trackers</h3>
+                <p>Know exactly which companies are tracking your email opens.</p>
+            </div>
+            <div class="feature">
+                <h3>📊 Real-Time Stats</h3>
+                <p>Badge counter shows how many trackers blocked today.</p>
+            </div>
+            <div class="feature">
+                <h3>🔒 Privacy First</h3>
+                <p>No data collection. Everything stays on your device.</p>
+            </div>
+            <div class="feature">
+                <h3>⚡ Lightweight</h3>
+                <p>Fast and efficient. Won't slow down your browser.</p>
+            </div>
+            <div class="feature">
+                <h3>🎨 Beautiful UI</h3>
+                <p>Clean, modern interface that's easy to use.</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <a href="https://github.com/jawad/privacypixel" class="btn">View on GitHub</a>
+            <a href="#" class="btn btn-secondary">Chrome Web Store (Soon)</a>
+        </div>
+
+        <footer>
+            <p>Made with ❤️ by <a href="https://codebyjawad.com">Jawad</a></p>
+            <p>
+                <a href="https://github.com/jawad/privacypixel">GitHub</a>
+                <a href="https://twitter.com/jawad">Twitter</a>
+                <a href="https://makeworking.com">MakeWorking</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
