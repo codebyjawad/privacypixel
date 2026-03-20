@@ -47,7 +47,7 @@ Coming soon!
 ## Development
 
 ```bash
-git clone https://github.com/jawad/privacypixel
+git clone https://github.com/codebyjawad/privacypixel
 cd privacypixel
 # Load in Chrome as unpacked extension
 ```
@@ -86,7 +86,7 @@ MIT © [Jawad](https://codebyjawad.com)
 ## Links
 
 - Website: [makeworking.com/privacypixel](https://makeworking.com/privacypixel)
-- GitHub: [github.com/jawad/privacypixel](https://github.com/jawad/privacypixel)
+- GitHub: [github.com/codebyjawad/privacypixel](https://github.com/codebyjawad/privacypixel)
 - Twitter: [@jawad](https://twitter.com/jawad)
 
 ---
