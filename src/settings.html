@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PrivacyPixel Settings</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      padding: 40px;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .section {
+      background: rgba(255,255,255,0.1);
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      backdrop-filter: blur(10px);
+    }
+    .section h2 {
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+    }
+    .setting {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .setting:last-child {
+      border-bottom: none;
+    }
+    .setting label {
+      font-size: 1rem;
+    }
+    .setting input[type="checkbox"] {
+      width: 50px;
+      height: 25px;
+    }
+    button {
+      width: 100%;
+      padding: 15px;
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: rgba(255,255,255,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🛡️ PrivacyPixel Settings</h1>
+
+    <div class="section">
+      <h2>General</h2>
+      <div class="setting">
+        <label for="notifications">Show notifications</label>
+        <input type="checkbox" id="notifications" checked>
+      </div>
+      <div class="setting">
+        <label for="autoBlock">Auto-block trackers</label>
+        <input type="checkbox" id="autoBlock" checked>
+      </div>
+      <div class="setting">
+        <label for="showBadge">Show badge counter</label>
+        <input type="checkbox" id="showBadge" checked>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Data</h2>
+      <button id="exportBtn">Export Data</button>
+    </div>
+
+    <div class="section">
+      <button id="saveBtn">Save Settings</button>
+    </div>
+  </div>
+
+  <script src="settings.js"></script>
+</body>
+</html>
